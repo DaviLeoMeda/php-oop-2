@@ -8,7 +8,7 @@ class petsProduct{
     public $kind;
     public $pet;
 
-    public function __construct($_picture, $_title, $_price, $_description, $_kind, $pet){
+    public function __construct($_picture, $_title, $_price, $_description, $_kind, $_pet){
         $this->picture = $_picture;
         $this->title = $_title;
         $this->price = $_price;
